@@ -1,0 +1,32 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.restart {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  background-color: #222222;
+  border: 1px solid #fff;
+}
+
+.restart:hover {
+  background-color: #fff;
+  color: #222222;
+  transition: 0.3s all ease;
+}
+
+.gameInfo {
+  margin-top: 25px;
+  font-size: 36px;
+  color: #fff;
+}
